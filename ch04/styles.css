@@ -1,0 +1,119 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+header {
+  padding: 1em 1.5em;
+  color: #fff;
+  background-color: #0072b0;
+  border-radius: .5em;
+  margin-bottom: 1.5em;
+}
+
+.main {
+  padding: 0 1.5em 1.5em;
+  background-color: #fff;
+  border-radius: .5em;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.media {
+  padding: 1.5em;
+  background-color: #eee;
+  border-radius: 0.5em;
+}
+
+.media-image {
+  float: left;
+  margin-right: 1.5em;
+}
+
+.media-body {
+  overflow: auto;
+  margin-top: 0;
+}
+
+.media-body h4 {
+  margin-top: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+.row {
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+}
+
+.row::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+[class*="cloumn-"] {
+  float: left;
+  padding: 0 0.75em;
+  margin-top: 0;
+}
+.cloumn-1 {
+  width: 8.3333%;
+}
+.cloumn-2 {
+  width: 16.6667%;
+}
+.cloumn-3 {
+  width: 25%;
+}
+.cloumn-4 {
+  width: 33.3333%;
+}
+.cloumn-5 {
+  width: 41.6667%;
+}
+.cloumn-6 {
+  width: 50%;
+}
+.cloumn-7 {
+  width: 58.3333%;
+}
+.cloumn-8 {
+  width: 66.6667%;
+}
+.cloumn-9 {
+  width: 75%;
+}
+.cloumn-10 {
+  width: 83.3333%;
+}
+.cloumn-11 {
+  width: 91.6667%;
+}
+.cloumn-12 {
+  width: 100%;
+}
